@@ -10,11 +10,13 @@
         <module name="department-service" />
         <module name="service-registry" />
         <module name="cloud-gateway" />
+        <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-gateway" target="11" />
       <module name="department-service" target="11" />
+      <module name="hystrix-dashboard" target="11" />
       <module name="service-registry" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-gateway" options="-parameters" />
       <module name="department-service" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
